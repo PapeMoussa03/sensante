@@ -5,7 +5,7 @@ Lab 1 : Git, Python et Structure Projet
 import pandas as pd
 
 # ===== CHARGER LES DONNEES =====
-df = pd.read_csv("data/patients_dakar.csv")
+df = pd.read_csv("data/patients_dakar.csv", encoding="latin-1")
 
 # ===== PREMIERS APERCUS =====
 print("=" * 50)
